@@ -1,0 +1,17 @@
+.list-items {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+.button-list {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.button-color {
+  background: red;
+  color: white;
+  border-radius: 2px;
+  border-color: red;
+}
