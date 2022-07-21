@@ -1,6 +1,6 @@
-import {component} from 'react'
+import {Component} from 'react'
 
-import LanguageList from './LanguageList'
+import LanguageList from './Components/LanguageList'
 
 import './App.css'
 

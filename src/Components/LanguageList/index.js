@@ -5,13 +5,17 @@ const LanguageList = props => {
   const {buttonText, id} = listDetails
   const buttonclassName = isActive ? 'button-color' : 'button-list'
 
-  onClickLanguage = () => {
+  const onClickLanguage = () => {
     LanguageClick(id)
   }
 
   return (
     <li className="list-items">
-      <button type="button" className="button-list" onClick={onClickLanguage}>
+      <button
+        type="button"
+        className={buttonclassName}
+        onClick={onClickLanguage}
+      >
         {buttonText}
       </button>
     </li>
